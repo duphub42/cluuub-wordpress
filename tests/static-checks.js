@@ -15,7 +15,8 @@ const checks = [
   ['only reviewed widgets allowed', /const WIDGETS = array\( 'angebote', 'trainer', 'hallen', 'vorstand', 'sponsoren' \)/.test(php)],
   ['dynamic Gutenberg block', /register_block_type\(/.test(php) && /render_callback/.test(php) && /"name": "cluuub\/embed"/.test(block)],
   ['no personal-data write endpoints called', !/trial-booking|courts\/book|contact-relay/.test(php)],
-  ['server-side privacy disclosure', /serverseitig/.test(php) && /IP-Adresse des WordPress-Servers/.test(php)],
+  ['server-side privacy disclosure', /server-side/.test(php) && /WordPress server IP address/.test(php)],
+  ['credit link is opt-in and disabled by default', /'show_credit' => 0/.test(php) && /if \( ! empty\( self::settings\(\)\['show_credit'\] \) \)/.test(php)],
 ];
 let failed = false;
 for (const [name, ok] of checks) { console.log(`${ok ? 'PASS' : 'FAIL'} ${name}`); failed ||= !ok; }

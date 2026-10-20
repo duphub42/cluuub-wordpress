@@ -1,11 +1,11 @@
 {
   "apiVersion": 3,
   "name": "cluuub/embed",
-  "version": "0.2.0",
-  "title": "cluuub Einbettung",
+  "version": "0.2.1",
+  "title": "cluuub Embed",
   "category": "widgets",
   "icon": "groups",
-  "description": "Zeigt eine cluuub-Einbettung nach ausdrücklicher Aktivierung durch den Besucher.",
+  "description": "Display public club information from cluuub with a block or shortcode.",
   "textdomain": "cluuub-embed",
   "attributes": {
     "club": { "type": "string", "default": "" },

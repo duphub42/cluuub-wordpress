@@ -25,7 +25,9 @@ jobs:
       - name: Build installable ZIP
         run: |
           mkdir -p dist/cluuub-embed
-          cp -R cluuub.php includes blocks assets uninstall.php readme.txt LICENSE dist/cluuub-embed/
+          cp -R cluuub.php includes blocks uninstall.php readme.txt LICENSE dist/cluuub-embed/
+          mkdir -p dist/cluuub-embed/assets
+          cp assets/embed.css dist/cluuub-embed/assets/
           cd dist
           zip -qr "cluuub-embed-${GITHUB_REF_NAME}.zip" cluuub-embed
 
