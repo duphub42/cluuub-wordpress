@@ -1,8 +1,4 @@
-# cluuub
-
-<p align="center">
-  <img src="assets/cluuub-logo.svg" alt="cluuub logo" width="96">
-</p>
+# cluuub <sub>[Setup](docs/WORDPRESS-SETUP.md) · [Docs · 14 languages](https://cluuub.app/developer) · [Releases](https://github.com/duphub42/cluuub-wordpress/releases)</sub> <img align="right" src="assets/cluuub-logo.svg" alt="cluuub logo" width="72">
 
 ### Publish your club information on your WordPress website
 
