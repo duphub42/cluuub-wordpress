@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm test
+      - name: PHP syntax check
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y php-cli
+          find . -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: PHP behavior smoke test
+        run: php tests/php-smoke.php

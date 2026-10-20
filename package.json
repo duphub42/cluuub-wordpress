@@ -1,0 +1,5 @@
+{
+  "name": "cluuub-embed-wordpress",
+  "private": true,
+  "scripts": { "test": "node tests/static-checks.js" }
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion": 3,
+  "name": "cluuub/embed",
+  "version": "0.2.0",
+  "title": "cluuub Einbettung",
+  "category": "widgets",
+  "icon": "groups",
+  "description": "Zeigt eine cluuub-Einbettung nach ausdrücklicher Aktivierung durch den Besucher.",
+  "textdomain": "cluuub-embed",
+  "attributes": {
+    "club": { "type": "string", "default": "" },
+    "type": { "type": "string", "default": "angebote" },
+    "limit": { "type": "number", "default": 12 },
+    "filter": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./index.js"
+}
