@@ -1,83 +1,85 @@
 # cluuub
 
-### Vereinsinformationen einfach auf eurer WordPress-Website zeigen
+### Publish your club information on your WordPress website
 
-Das **cluuub Embed** verbindet eure Website mit den freigegebenen öffentlichen Informationen eures Vereins in cluuub. Fügt Inhalte über den Gutenberg-Block oder einen Shortcode ein – ohne HTML-Kenntnisse und ohne manuelle Pflege einzelner Kursdaten.
+**cluuub Embed** connects your website to your club’s approved public information in cluuub. Add content with a Gutenberg block or shortcode, without HTML skills or manually maintaining course details.
 
 <p align="center">
-  <img src="assets/readme-preview.svg" alt="Vorschau einer cluuub-Einbettung mit Beispielangeboten und Einstellungen" width="900">
+  <img src="assets/readme-preview.svg" alt="Illustration of the cluuub WordPress embed with sample activities and block settings" width="900">
 </p>
 
-> **Hinweis:** Die Abbildung ist eine eigens erstellte Produktillustration mit Demo-Inhalten. Sie bildet keine echte WordPress-Installation ab.
+> **Illustration:** This custom graphic uses sample content. It is a product mockup, not a screenshot of a real WordPress installation.
 
-[Hilfe & Support auf cluuub.app](https://cluuub.app/hilfe) · [Produktumfang](docs/PRODUCT-SCOPE.md) · [API-Vertrag](docs/API-CONTRACT.md) · [Sicherheit & Datenschutz](docs/SECURITY.md)
+**Documentation:** [Developer documentation on cluuub.app](https://cluuub.app/developer) · Available in **14 languages**; use the language selector on the site.
 
-## Was das Plugin kann
+[Product scope](docs/PRODUCT-SCOPE.md) · [API contract](docs/API-CONTRACT.md) · [Security and privacy](docs/SECURITY.md)
 
-- **Gutenberg-Block:** Vereinskennung, Inhaltstyp, Anzahl und Suchfilter im Editor einstellen.
-- **Shortcode:** Inhalte auch in klassischen Editoren und kompatiblen Page Buildern einfügen.
-- **Fünf öffentliche Inhaltstypen:** Sportangebote, Trainer, Sportstätten, Ansprechpersonen und Sponsoren.
-- **Serverseitiger Abruf:** WordPress ruft die öffentliche cluuub-API ab; der Browser eurer Website-Besucher verbindet sich für die Anzeige nicht direkt mit cluuub.
-- **Kurzer Cache:** Antworten werden fünf Minuten in WordPress zwischengespeichert.
-- **Responsive Darstellung:** Die Karten passen sich schmalen und breiten Ansichten an.
+## Features
+
+- **Gutenberg block:** Set the club slug, content type, item limit, and search filter in the editor.
+- **Shortcode:** Add content in the classic editor and compatible page builders.
+- **Five public content types:** Sports activities, coaches, venues, board contacts, and sponsors.
+- **Server-side requests:** WordPress fetches the public cluuub API. Visitors’ browsers do not connect directly to cluuub to display the widget.
+- **Short cache:** Responses are cached in WordPress for five minutes.
+- **Responsive cards:** The layout adapts to narrow and wide screens.
 
 ## Installation
 
-1. Ladet das Plugin als ZIP aus dem Repository herunter: **Code → Download ZIP**.
-2. Öffnet im WordPress-Admin **Plugins → Installieren → Plugin hochladen** und wählt die ZIP-Datei aus.
-3. Aktiviert **cluuub Embed**.
-4. Öffnet **Einstellungen → cluuub Embed**. Die Standardadresse `https://cluuub.app` ist bereits eingetragen. Ändert sie nur, wenn euer Verein eine andere cluuub-Umgebung nutzt.
-5. Fügt den Gutenberg-Block **cluuub Einbettung** ein oder verwendet einen Shortcode.
+1. Download the ZIP from this repository using **Code → Download ZIP**.
+2. In WordPress, open **Plugins → Add New Plugin → Upload Plugin** and select the ZIP file.
+3. Activate **cluuub Embed**.
+4. Open **Settings → cluuub Embed**. The default origin, `https://cluuub.app`, is already configured. Change it only if your club uses another cluuub environment.
+5. Add the **cluuub Embed** block or a shortcode to a page.
 
 <p align="center">
-  <img src="assets/readme-setup.svg" alt="Drei Schritte: Plugin installieren, Vereinskennung eintragen und Einbettung veröffentlichen" width="780">
+  <img src="assets/readme-setup.svg" alt="Three steps: install the plugin, select your club and content, then publish the embed" width="780">
 </p>
 
-## Gutenberg-Block verwenden
+## Use the Gutenberg block
 
-Sucht im Blockeditor nach **cluuub Einbettung** und legt fest:
+Search for **cluuub Embed** in the block editor and configure:
 
-- **Club slug:** die öffentliche Vereinskennung aus der cluuub-Adresse, zum Beispiel `sv-halle`;
-- **Inhalt:** `angebote`, `trainer`, `hallen`, `vorstand` oder `sponsoren`;
-- **Maximale Einträge:** 1 bis 50;
-- **Suchfilter:** optionaler Begriff, zum Beispiel `Kinder`.
+- **Club slug:** the public club identifier from the cluuub URL, for example `sv-halle`;
+- **Content:** `angebote`, `trainer`, `hallen`, `vorstand`, or `sponsoren`;
+- **Maximum items:** 1–50;
+- **Search filter:** an optional term, for example `children`.
 
-Der Editor zeigt eine Vorschau der Einstellungen. Die aktuellen Vereinsdaten werden auf der veröffentlichten Seite serverseitig geladen.
+The editor shows a settings preview. Current club data is fetched server-side when the published page is rendered.
 
-## Shortcode verwenden
+## Use a shortcode
 
-Fügt diesen Shortcode in einen Shortcode-Block oder ein kompatibles Page-Builder-Element ein:
+Add this shortcode in a Shortcode block or a compatible page-builder element:
 
 ```text
 [cluuub club="sv-halle" type="angebote"]
 ```
 
-Optionale Attribute:
+Optional attributes:
 
 ```text
-[cluuub club="sv-halle" type="trainer" limit="8" filter="Jugend"]
+[cluuub club="sv-halle" type="trainer" limit="8" filter="youth"]
 ```
 
-| Attribut | Werte | Standard |
+| Attribute | Values | Default |
 |---|---|---|
-| `club` | Vereinskennung aus Kleinbuchstaben, Zahlen und Bindestrichen | erforderlich |
+| `club` | Lowercase letters, numbers, and hyphens | Required |
 | `type` | `angebote`, `trainer`, `hallen`, `vorstand`, `sponsoren` | `angebote` |
-| `limit` | 1 bis 50 | 12 |
-| `filter` | Freitext, optional | leer |
+| `limit` | 1–50 | 12 |
+| `filter` | Any text; optional | Empty |
 
-## Datenschutz kurz erklärt
+## Privacy at a glance
 
-Bei einem Cache-Miss sendet der **WordPress-Server** eine HTTPS-Anfrage an die konfigurierte cluuub-Umgebung. Dabei erhält cluuub die Netzwerkadresse des Servers und die angefragte Vereinskennung. Die Antwort wird bis zu fünf Minuten in WordPress zwischengespeichert. Der Browser des Seitenbesuchers ruft die cluuub-API für dieses Widget nicht direkt auf.
+On a cache miss, the **WordPress server** sends an HTTPS request to the configured cluuub environment. cluuub receives the server’s network address and the requested club slug. WordPress caches the response for up to five minutes. A visitor’s browser does not call the cluuub API directly for this widget.
 
-Das Plugin ruft nur öffentliche Showcase-Daten ab. Es überträgt keine Mitgliederdaten aus WordPress an cluuub und enthält in dieser Version keine Formulare zum Absenden persönlicher Daten. Website-Betreiber sollten den Server-zu-Server-Abruf in ihrer Datenschutzerklärung berücksichtigen. Details stehen in [Sicherheit & Datenschutz](docs/SECURITY.md).
+The plugin fetches public showcase data only. It does not send WordPress member data to cluuub and this version does not include forms that submit personal data. Site owners should describe this server-to-server request in their privacy notice. See [Security and privacy](docs/SECURITY.md) for details.
 
-## Aktueller Funktionsumfang
+## Current scope
 
-Neuigkeiten sind noch nicht als Widget verfügbar. Der API-Vertrag muss dafür zunächst sicherstellen, dass Nachrichten ausschließlich dem angefragten Verein zugeordnet sind. Probetrainings- und Buchungsformulare, Mitglieder-Synchronisierung und Analyse-Tracking sind ebenfalls nicht Teil dieser Plugin-Version.
+News are not available as a widget yet. The API contract must first ensure that news are scoped to the requested club. Trial-session and booking forms, member synchronization, and analytics tracking are also outside this plugin version.
 
-## Entwicklung und Tests
+## Development and tests
 
-Voraussetzungen: Node.js für die statischen Prüfungen; PHP 7.4 oder neuer für PHP-Syntax- und Smoke-Tests.
+Requirements: Node.js for static checks; PHP 7.4 or later for PHP syntax and smoke tests.
 
 ```bash
 npm test
@@ -85,8 +87,8 @@ php -l cluuub.php
 php tests/php-smoke.php
 ```
 
-Der GitHub-Actions-Workflow führt die statischen Prüfungen, den PHP-Syntaxcheck und den PHP-Smoke-Test bei Pushes und Pull Requests aus.
+The GitHub Actions workflow runs static checks, PHP syntax checks, and the PHP smoke test on pushes and pull requests.
 
-## Lizenz
+## License
 
-GPL-2.0-or-later. Siehe [LICENSE](LICENSE).
+GPL-2.0-or-later. See [LICENSE](LICENSE).

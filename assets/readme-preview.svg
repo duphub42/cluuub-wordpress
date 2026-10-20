@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
-  <title id="title">cluuub Embed für WordPress – Produktvorschau</title>
-  <desc id="desc">Illustrative Vereinswebsite mit drei Sportangeboten und Gutenberg-Einstellungen für die cluuub Einbettung.</desc>
+  <title id="title">cluuub Embed for WordPress – product preview</title>
+  <desc id="desc">Illustration of a club website with three activities and cluuub block settings.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff6ff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#102a43" flood-opacity=".12"/></filter>
@@ -12,40 +12,40 @@
   <path d="M48 78a30 30 0 0 1 30-30h1044a30 30 0 0 1 30 30v24H48z" fill="#f8fafc"/>
   <circle cx="78" cy="75" r="6" fill="#f87171"/><circle cx="100" cy="75" r="6" fill="#fbbf24"/><circle cx="122" cy="75" r="6" fill="#34d399"/>
   <rect x="170" y="64" width="562" height="22" rx="11" fill="#e2e8f0"/>
-  <text x="86" y="147" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#2563eb">SV BEISPIELSTADT · VEREINSWEBSITE</text>
-  <text x="86" y="196" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Sportangebote entdecken</text>
-  <text x="86" y="227" font-family="Arial,sans-serif" font-size="17" fill="#64748b">Finde den passenden Kurs für dich und deine Familie.</text>
+  <text x="86" y="147" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#2563eb">SAMPLE CLUB · CLUB WEBSITE</text>
+  <text x="86" y="196" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#0f172a">Explore club activities</text>
+  <text x="86" y="227" font-family="Arial,sans-serif" font-size="17" fill="#64748b">Find the right activity for you and your family.</text>
   <rect x="86" y="263" width="704" height="274" rx="18" fill="#f8fafc" stroke="#dbe4ee"/>
-  <text x="112" y="303" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#0f172a">Sportangebote</text>
+  <text x="112" y="303" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#0f172a">Activities</text>
   <rect x="108" y="325" width="202" height="184" rx="13" fill="#fff" stroke="#dbe4ee"/>
   <rect x="326" y="325" width="202" height="184" rx="13" fill="#fff" stroke="#dbe4ee"/>
   <rect x="544" y="325" width="222" height="184" rx="13" fill="#fff" stroke="#dbe4ee"/>
   <rect x="124" y="342" width="42" height="42" rx="12" fill="#dbeafe"/><text x="135" y="370" font-family="Arial,sans-serif" font-size="22" fill="#2563eb">↗</text>
-  <text x="124" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Kinderturnen</text>
-  <text x="124" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Bewegung &amp; Spiele</text>
-  <text x="124" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">Ab 6 Jahren</text>
-  <text x="124" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Mo · 16:00 · Sporthalle</text>
+  <text x="124" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Kids gymnastics</text>
+  <text x="124" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Movement &amp; games</text>
+  <text x="124" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">Ages 6 and up</text>
+  <text x="124" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Mon · 4 pm · Sports hall</text>
   <rect x="342" y="342" width="42" height="42" rx="12" fill="#dcfce7"/><text x="353" y="370" font-family="Arial,sans-serif" font-size="22" fill="#15803d">●</text>
-  <text x="342" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Fit im Alltag</text>
-  <text x="342" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Fitness für Erwachsene</text>
-  <text x="342" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">Alle Altersstufen</text>
-  <text x="342" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Mi · 18:30 · Vereinsraum</text>
+  <text x="342" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Everyday fitness</text>
+  <text x="342" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Fitness for adults</text>
+  <text x="342" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">All ages</text>
+  <text x="342" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Wed · 6:30 pm · Club room</text>
   <rect x="560" y="342" width="42" height="42" rx="12" fill="#fef3c7"/><text x="570" y="370" font-family="Arial,sans-serif" font-size="22" fill="#b45309">★</text>
-  <text x="560" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Rückenfit</text>
-  <text x="560" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Kraft &amp; Beweglichkeit</text>
-  <text x="560" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">Für Einsteiger</text>
-  <text x="560" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Fr · 17:30 · Halle 2</text>
+  <text x="560" y="413" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f172a">Back fitness</text>
+  <text x="560" y="439" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Strength &amp; mobility</text>
+  <text x="560" y="468" font-family="Arial,sans-serif" font-size="13" fill="#334155">Beginner-friendly</text>
+  <text x="560" y="490" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Fri · 5:30 pm · Hall 2</text>
   <rect x="820" y="128" width="296" height="409" rx="16" fill="#fff" stroke="#dbe4ee"/>
   <rect x="820" y="128" width="296" height="58" rx="16" fill="#f8fafc"/>
   <path d="M820 170h296v16H820z" fill="#f8fafc"/>
-  <text x="844" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Block-Einstellungen</text>
+  <text x="844" y="164" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0f172a">Block settings</text>
   <text x="844" y="218" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">CLUB SLUG</text>
   <rect x="844" y="230" width="248" height="39" rx="7" fill="#fff" stroke="#cbd5e1"/><text x="857" y="255" font-family="Arial,sans-serif" font-size="14" fill="#334155">sv-beispielstadt</text>
-  <text x="844" y="301" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">INHALT</text>
-  <rect x="844" y="313" width="248" height="39" rx="7" fill="#fff" stroke="#cbd5e1"/><text x="857" y="338" font-family="Arial,sans-serif" font-size="14" fill="#334155">Sportangebote</text>
-  <text x="844" y="385" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">MAXIMALE EINTRÄGE</text>
-  <rect x="844" y="397" width="248" height="8" rx="4" fill="#dbeafe"/><circle cx="921" cy="401" r="9" fill="#2563eb"/><text x="844" y="429" font-family="Arial,sans-serif" font-size="12" fill="#64748b">12 Einträge</text>
-  <text x="844" y="475" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">SUCHFILTER (OPTIONAL)</text>
-  <rect x="844" y="487" width="248" height="31" rx="7" fill="#fff" stroke="#cbd5e1"/><text x="857" y="508" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">z. B. Kinder</text>
-  <text x="89" y="570" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">Illustrative Demo · keine echten Vereins- oder Personendaten</text>
+  <text x="844" y="301" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">CONTENT</text>
+  <rect x="844" y="313" width="248" height="39" rx="7" fill="#fff" stroke="#cbd5e1"/><text x="857" y="338" font-family="Arial,sans-serif" font-size="14" fill="#334155">Activities</text>
+  <text x="844" y="385" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">MAXIMUM ITEMS</text>
+  <rect x="844" y="397" width="248" height="8" rx="4" fill="#dbeafe"/><circle cx="921" cy="401" r="9" fill="#2563eb"/><text x="844" y="429" font-family="Arial,sans-serif" font-size="12" fill="#64748b">12 items</text>
+  <text x="844" y="475" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#475569">SEARCH FILTER (OPTIONAL)</text>
+  <rect x="844" y="487" width="248" height="31" rx="7" fill="#fff" stroke="#cbd5e1"/><text x="857" y="508" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">e.g. kids</text>
+  <text x="89" y="570" font-family="Arial,sans-serif" font-size="12" fill="#94a3b8">Illustrative demo · no real club or personal data</text>
 </svg>

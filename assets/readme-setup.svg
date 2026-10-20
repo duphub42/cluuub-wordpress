@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="260" viewBox="0 0 1040 260" role="img" aria-labelledby="title desc">
-  <title id="title">cluuub Embed in drei Schritten einrichten</title>
-  <desc id="desc">Plugin installieren, Vereinskennung und Inhalt wählen, Block auf der Website veröffentlichen.</desc>
+  <title id="title">Set up cluuub Embed in three steps</title>
+  <desc id="desc">Install the plugin, select a club and content, then publish the block on your website.</desc>
   <rect width="1040" height="260" rx="24" fill="#f8fafc"/>
   <path d="M290 130h92M650 130h92" stroke="#93c5fd" stroke-width="4" stroke-dasharray="8 8"/>
   <g font-family="Arial,sans-serif">
     <rect x="32" y="30" width="300" height="200" rx="18" fill="#fff" stroke="#dbe4ee"/>
     <circle cx="78" cy="82" r="26" fill="#dbeafe"/><text x="70" y="90" font-size="22" font-weight="700" fill="#2563eb">1</text>
     <rect x="122" y="64" width="52" height="38" rx="7" fill="#eff6ff" stroke="#93c5fd"/><path d="M132 76h32M132 85h24M132 94h17" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
-    <text x="58" y="139" font-size="19" font-weight="700" fill="#0f172a">Plugin installieren</text>
-    <text x="58" y="169" font-size="14" fill="#64748b">ZIP in WordPress hochladen</text>
-    <text x="58" y="191" font-size="14" fill="#64748b">und cluuub Embed aktivieren.</text>
+    <text x="58" y="139" font-size="19" font-weight="700" fill="#0f172a">Install the plugin</text>
+    <text x="58" y="169" font-size="14" fill="#64748b">Upload the ZIP in WordPress</text>
+    <text x="58" y="191" font-size="14" fill="#64748b">and activate cluuub Embed.</text>
     <rect x="370" y="30" width="300" height="200" rx="18" fill="#fff" stroke="#dbe4ee"/>
     <circle cx="416" cy="82" r="26" fill="#dcfce7"/><text x="408" y="90" font-size="22" font-weight="700" fill="#15803d">2</text>
     <rect x="460" y="64" width="52" height="38" rx="7" fill="#f0fdf4" stroke="#86efac"/><path d="M470 76h32M470 85h24M470 94h17" stroke="#15803d" stroke-width="3" stroke-linecap="round"/>
-    <text x="396" y="139" font-size="19" font-weight="700" fill="#0f172a">Verein auswählen</text>
-    <text x="396" y="169" font-size="14" fill="#64748b">Club slug und Inhaltstyp</text>
-    <text x="396" y="191" font-size="14" fill="#64748b">im Block oder Shortcode setzen.</text>
+    <text x="396" y="139" font-size="19" font-weight="700" fill="#0f172a">Select your club</text>
+    <text x="396" y="169" font-size="14" fill="#64748b">Set the club slug and content type</text>
+    <text x="396" y="191" font-size="14" fill="#64748b">in the block or shortcode.</text>
     <rect x="708" y="30" width="300" height="200" rx="18" fill="#fff" stroke="#dbe4ee"/>
     <circle cx="754" cy="82" r="26" fill="#fef3c7"/><text x="746" y="90" font-size="22" font-weight="700" fill="#b45309">3</text>
     <rect x="798" y="64" width="52" height="38" rx="7" fill="#fffbeb" stroke="#fcd34d"/><path d="M808 95V78l8 6 8-11 8 7 8-12" fill="none" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="734" y="139" font-size="19" font-weight="700" fill="#0f172a">Veröffentlichen</text>
-    <text x="734" y="169" font-size="14" fill="#64748b">Vorschau prüfen und Seite</text>
-    <text x="734" y="191" font-size="14" fill="#64748b">wie gewohnt veröffentlichen.</text>
+    <text x="734" y="139" font-size="19" font-weight="700" fill="#0f172a">Publish</text>
+    <text x="734" y="169" font-size="14" fill="#64748b">Preview and publish your page</text>
+    <text x="734" y="191" font-size="14" fill="#64748b">as you normally would.</text>
   </g>
 </svg>
