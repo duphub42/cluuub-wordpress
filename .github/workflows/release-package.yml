@@ -1,0 +1,35 @@
+name: Build WordPress release package
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Run plugin checks
+        run: |
+          npm test
+          sudo apt-get update
+          sudo apt-get install -y php-cli
+          find . -name '*.php' -print0 | xargs -0 -n1 php -l
+          php tests/php-smoke.php
+
+      - name: Build installable ZIP
+        run: |
+          mkdir -p dist/cluuub-embed
+          cp -R cluuub.php includes blocks assets uninstall.php readme.txt LICENSE dist/cluuub-embed/
+          cd dist
+          zip -qr "cluuub-embed-${GITHUB_REF_NAME}.zip" cluuub-embed
+
+      - name: Attach ZIP to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${GITHUB_REF_NAME}" "dist/cluuub-embed-${GITHUB_REF_NAME}.zip" --clobber
