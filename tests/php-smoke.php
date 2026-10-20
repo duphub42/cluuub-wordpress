@@ -20,6 +20,7 @@ function esc_url( $url ) { return esc_html( $url ); }
 function esc_url_raw( $url, $protocols = array() ) { return filter_var( $url, FILTER_VALIDATE_URL ) ? $url : ''; }
 function wp_parse_url( $url ) { return parse_url( $url ); }
 function untrailingslashit( $value ) { return rtrim( $value, '/' ); }
+function trailingslashit( $value ) { return rtrim( $value, '/' ) . '/'; }
 function wp_parse_args( $args, $defaults ) { return array_merge( $defaults, $args ); }
 function get_option( $key, $default = false ) { return $GLOBALS['cluuub_mock_options'][ $key ] ?? $default; }
 function checked( $checked, $current, $echo = true ) { return (string) $checked === (string) $current ? 'checked="checked"' : ''; }
