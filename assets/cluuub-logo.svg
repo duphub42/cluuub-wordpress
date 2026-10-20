@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="160" height="160">
+  <defs>
+    <style>
+      .bg { fill: #1c1d1f; }
+      .base { stroke: #f4ecd8; stroke-width: 24; stroke-linecap: round; }
+      .arch { fill: none; stroke: #f4ecd8; stroke-width: 24; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Dunkler Hintergrund -->
+  <rect width="800" height="800" class="bg" />
+
+  <!-- Zentriertes Portal-Icon -->
+  <g id="logo-mark">
+    <!-- Boden-Basislinie (mit runden Kappen gegen Haarrisse) -->
+    <line x1="140" y1="580" x2="660" y2="580" class="base" />
+
+    <!-- Äußerer Bogen (U 1) -->
+    <path class="arch" d="M 200 580 L 200 380 A 200 200 0 0 1 600 380 L 600 580" />
+
+    <!-- Mittlerer Bogen (U 2) -->
+    <path class="arch" d="M 256 580 L 256 380 A 144 144 0 0 1 544 380 L 544 580" />
+
+    <!-- Innerer Bogen (U 3) -->
+    <path class="arch" d="M 312 580 L 312 380 A 88 88 0 0 1 488 380 L 488 580" />
+  </g>
+</svg>

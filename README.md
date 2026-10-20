@@ -1,5 +1,9 @@
 # cluuub
 
+<p align="center">
+  <img src="assets/cluuub-logo.svg" alt="cluuub logo" width="96">
+</p>
+
 ### Publish your club information on your WordPress website
 
 **cluuub Embed** connects your website to your club’s approved public information in cluuub. Add content with a Gutenberg block or shortcode, without HTML skills or manually maintaining course details.
