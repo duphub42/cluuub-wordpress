@@ -24,6 +24,7 @@ function trailingslashit( $value ) { return rtrim( $value, '/' ) . '/'; }
 function wp_parse_args( $args, $defaults ) { return array_merge( $defaults, $args ); }
 function get_option( $key, $default = false ) { return $GLOBALS['cluuub_mock_options'][ $key ] ?? $default; }
 function checked( $checked, $current, $echo = true ) { return (string) $checked === (string) $current ? 'checked="checked"' : ''; }
+function absint( $value ) { return abs( (int) $value ); }
 function sanitize_text_field( $value ) { return trim( strip_tags( (string) $value ) ); }
 function sanitize_key( $value ) { return preg_replace( '/[^a-z0-9_-]/', '', strtolower( (string) $value ) ); }
 function shortcode_atts( $pairs, $atts, $shortcode = '' ) { return array_merge( $pairs, is_array( $atts ) ? $atts : array() ); }
